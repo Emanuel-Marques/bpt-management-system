@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import logo from '../assets/Imagem.png';
 import { Dropdown } from './dropdown';
 import { useNavigate } from 'react-router-dom';
