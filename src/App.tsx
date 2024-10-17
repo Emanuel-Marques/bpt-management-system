@@ -4,6 +4,7 @@ import girls from "./assets/girls.jpg";
 import InfoCard from "./components/info-card";
 import { cardInfoData } from "./data/info-card-data";
 import FormTryForFree from "./components/form-try-for-free";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -116,6 +117,7 @@ function App() {
         ))
       }
       <FormTryForFree />
+      <Footer/>
     </>
   )
 }
