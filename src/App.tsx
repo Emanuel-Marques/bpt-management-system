@@ -1,6 +1,9 @@
 import { Navbar } from "./components/navbar";
 import banner from "./assets/banner.jpeg";
 import girls from "./assets/girls.jpg";
+import InfoCard from "./components/info-card";
+import { cardInfoData } from "./data/info-card-data";
+import FormTryForFree from "./components/form-try-for-free";
 
 function App() {
   return (
@@ -101,6 +104,18 @@ function App() {
           </div>
         </div>
       </div>
+      {
+        cardInfoData.map((cardInfo, index) => (
+          <InfoCard
+            model={cardInfo.model}
+            key={index} 
+            title={cardInfo.title}
+            content={cardInfo.content}
+            img={cardInfo.img}
+          />
+        ))
+      }
+      <FormTryForFree />
     </>
   )
 }
