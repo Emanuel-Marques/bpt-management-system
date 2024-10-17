@@ -24,7 +24,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="text-center p-10" style={{ backgroundColor: "rgba(0,11,45,0.95)" }}>
-                <p className="text-white"> &copy; 2024 Brazilian Power Team lobito - Todos os direitos reservados.</p>
+                <p className="text-white"> &copy; 2024 Brazilian Power Team Lobito - Todos os direitos reservados.</p>
             </div>
         </footer>
     );

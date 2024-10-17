@@ -1,5 +1,5 @@
 import { Navbar } from "./components/navbar";
-import banner from "./assets/banner.jpeg";
+import banner from "./assets/main-banner.jpg";
 import girls from "./assets/girls.jpg";
 import InfoCard from "./components/info-card";
 import { cardInfoData } from "./data/info-card-data";
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <header className="">
-        <div className="relative w-full h-3/4 bg-cover bg-center" style={{ backgroundImage: `url(${banner})` }}>
+        <div className="relative w-full h-4/5 bg-cover bg-center" style={{ backgroundImage: `url(${banner})` }}>
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative z-10 p-4 text-white flex flex-col gap-10">
             <Navbar />
