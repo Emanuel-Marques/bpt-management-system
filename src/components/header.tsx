@@ -26,7 +26,7 @@ export default function Header({ banner, isMainPage, title } : HeaderProps) {
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative z-10 p-4 text-white flex flex-col gap-10">
             <Navbar />
-            <div className=" mx-64 flex justify-center p-12">
+            <div className=" mx-64 flex justify-center px-12 pb-20">
               <h1 className="text-4xl font-bold mb-2">{title}</h1>
             </div>
           </div>
