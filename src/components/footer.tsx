@@ -1,7 +1,9 @@
 import logo from '../assets/Imagem.png'
+import FormTryForFree from './form-try-for-free';
 export default function Footer() {
     return (
         <footer className="">
+            <FormTryForFree />
             <div className="flex items-center justify-center gap-40 py-20">
                 <img src={logo} alt="logtipo bpt" width={100} />
                 <div className="flex flex-col gap-1">
