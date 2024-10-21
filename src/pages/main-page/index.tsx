@@ -1,11 +1,16 @@
-import FormTryForFree from "../../components/form-try-for-free";
 import InfoCard from "../../components/info-card";
 import { cardInfoData } from "../../data/info-card-data";
 import girls from "../../assets/girls.jpg";
+import Header from "../../components/header";
+import banner from "../../assets/main-banner.jpg";
 
 export default function MainPage() {
     return (
         <>
+            <Header
+                banner={banner}
+                isMainPage={true}
+            />
             <div className="flex items-center justify-center py-20 px-12 gap-20">
                 <div className="w-1/3">
                     <h1 className="text-3xl font-semibold mb-6">Descubra do que você é capaz.</h1>
@@ -99,7 +104,6 @@ export default function MainPage() {
                     />
                 ))
             }
-            <FormTryForFree />
         </>
     );
 }
