@@ -8,6 +8,7 @@ export default function AthleteCard({ name, belt, image, description } : Athlete
                 <h3 className="font-bold text-xl">{name}</h3>
                 <p className="text-[#6B7280]">FAIXA {belt.toUpperCase()}</p>
                 <p>{description}</p>
+            <button className="bg-[#012db3] text-white text-sm px-2 py-2 mt-4 rounded cursor-pointer hover:bg-blue-800">Saiba mais</button>
             </div>
         </div>
     )
