@@ -7,7 +7,7 @@ export function Navbar() {
     const aboutNavItems = [
         { title: 'Nossa Academia', path: '/nossa-academia' },
         { title: 'Nossos atletas', path: '/nossos-atletas' },
-        { title: 'Horário de aula', path: '/horarios' },
+        { title: 'Horário de aula', path: '/horario-de-aulas' },
         { title: 'Preços', path: '/precos' },
         { title: 'FAQ', path: '/faq' },
     ]
