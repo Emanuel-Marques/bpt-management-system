@@ -1,30 +1,103 @@
-# React + TypeScript + Vite
+[JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
+[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
+[REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
+[PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
+[PROJECT__URL]: https://clinica-maravilha.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center" style="font-weight: bold;"> BPT Lobito - website 💻</h1>
 
-Currently, two official plugins are available:
+![typescript][TYPESCRIPT__BADGE] 
+![react][REACT__BADGE]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+ <a href="#about">Sobre</a> • 
+ <a href="#started">Começando</a> • 
+  <a href="#started">Rotas da aplicação</a> • 
+  <a href="#colab">Colaboradores</a> •
+ <a href="#contribute">Contribuição</a>
+</p>
 
-## Expanding the ESLint configuration
+<p align="center">
+    <img src="./src/assets/capa-readme.png" alt="Image Example" width="600px">
+</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h2 id="started">📌 Sobre</h2>
 
-- Configure the top-level `parserOptions` property like this:
+Bem-vindo ao repositório oficial do website da Brazilian Power Team. Este projeto foi desenvolvido para representar a equipe e oferecer informações sobre horários, membros, serviços e eventos. O site é otimizado para navegadores modernos e dispositivos móveis, oferecendo uma experiência fluida e profissional aos usuários.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+[![project][PROJECT__BADGE]][PROJECT__URL]
+
+<h2 id="started">🚀 Começando</h2>
+
+<h3>Pré-requisitos</h3>
+
+Pré-requisitos necessários para executar o projeto:
+
+- Node.js (v14 ou superior)
+- npm (v6 ou superior)
+
+<h3>Clonando</h3>
+
+Para clonar o repositório siga os seguintes passos: 
+
+```bash
+git clone https://github.com/Emanuel-Marques/bpt-management-system.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<h3>Executando a Aplicação</h3>
+
+Para executar o a aplicação siga os seguintes passos: 
+
+```bash
+cd bpt-management-system
+npm install
+npm run dev
+```
+Isso iniciará o servidor de desenvolvimento e você poderá visualizar a aplicação em `http://localhost:3000/`.
+
+<h2 id="routes">📍 Rotas da Aplicação</h2>
+
+Todas as rotas disponíveis na aplicação
+| Rota               | Descrição                                          
+|----------------------|-----------------------------------------------------
+| <kbd>/</kbd>     | página principal
+| <kbd>/nossos-atletas</kbd>     | Apresentação dos membros da equipe com foto e especialidade.
+| <kbd>/horario-de-aulas</kbd>     | Exibição detalhada dos horários das aulas e treinos.
+| <kbd>/nossa-academia</kbd>     | Apresentação da academia e dos líderes.
+
+<h2 id="colab">🤝 Colaboradores</h2>
+
+Um agradecimento especial a todas as pessoas que contribuíram para este projeto.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/70699733?v=4" width="100px;" alt="Emanuel Marques Profile Picture"/><br>
+        <sub>
+          <b>Emanuel Marques</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<h2 id="contribute">📫 Contribuição</h2>
+
+Contribuições são bem-vindas! Por favor, faça um fork do repositório e envie um pull request para quaisquer melhorias ou correções de bugs.
+
+1. `git clone https://github.com/Emanuel-Marques/bpt-management-system.git`
+2. `git checkout -b feature/NAME`
+3. Siga os padrões de commit
+4. Abra um Pull Request explicando o problema resolvido ou o recurso criado, se houver, anexe uma captura de tela das modificações visuais e aguarde a revisão!
+
+## Licença
+
+Este projeto é licenciado sob a Licença MIT.
+
+## Contato
+
+Para qualquer dúvida ou feedback, entre em contato pelo email [Emanuel Marques](emanuelmarques585@gmail.com).
+
+---
+​
