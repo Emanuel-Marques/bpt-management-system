@@ -4,7 +4,7 @@
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
 [PROJECT__URL]: https://clinica-maravilha.vercel.app/
 
-<h1 align="center" style="font-weight: bold;"> Clínica Maravilha - website 💻</h1>
+<h1 align="center" style="font-weight: bold;"> BPT Lobito - website 💻</h1>
 
 ![typescript][TYPESCRIPT__BADGE] 
 ![react][REACT__BADGE]
@@ -18,12 +18,12 @@
 </p>
 
 <p align="center">
-    <img src="./src/assets/clinica-maravilha.png" alt="Image Example" width="400px">
+    <img src="./src/assets/capa-readme.png" alt="Image Example" width="600px">
 </p>
 
 <h2 id="started">📌 Sobre</h2>
 
-Este projeto foi desenvolvido para praticar minhas habilidades em React e é uma simulação de um website moderno para uma clínica de saúde.
+Bem-vindo ao repositório oficial do website da Brazilian Power Team. Este projeto foi desenvolvido para representar a equipe e oferecer informações sobre horários, membros, serviços e eventos. O site é otimizado para navegadores modernos e dispositivos móveis, oferecendo uma experiência fluida e profissional aos usuários.
 
 [![project][PROJECT__BADGE]][PROJECT__URL]
 
@@ -41,7 +41,7 @@ Pré-requisitos necessários para executar o projeto:
 Para clonar o repositório siga os seguintes passos: 
 
 ```bash
-git clone https://github.com/Emanuel-Marques/clinica-maravilha.git
+git clone https://github.com/Emanuel-Marques/bpt-management-system.git
 ```
 
 <h3>Executando a Aplicação</h3>
@@ -49,11 +49,11 @@ git clone https://github.com/Emanuel-Marques/clinica-maravilha.git
 Para executar o a aplicação siga os seguintes passos: 
 
 ```bash
-cd clinica-maravilha
+cd bpt-management-system
 npm install
 npm run dev
 ```
-Isso iniciará o servidor de desenvolvimento e você poderá visualizar a aplicação em `http://localhost:5173/`.
+Isso iniciará o servidor de desenvolvimento e você poderá visualizar a aplicação em `http://localhost:3000/`.
 
 <h2 id="routes">📍 Rotas da Aplicação</h2>
 
@@ -61,11 +61,9 @@ Todas as rotas disponíveis na aplicação
 | Rota               | Descrição                                          
 |----------------------|-----------------------------------------------------
 | <kbd>/</kbd>     | página principal
-| <kbd>/clinica-maravilha/sobre</kbd>     | página que mostra informações da clinica
-| <kbd>/clinica-maravilha/departamentos</kbd>     | página que mostra informações dos departamentos disponiveis
-| <kbd>/clinica-maravilha/doutor</kbd>     | página que mostra informações dos doutores
-| <kbd>/clinica-maravilha/blogue</kbd>     | página que mostra o horário dos medicos e de funcionamento
-| <kbd>/clinica-maravilha/contacto</kbd>     | página que mostra formulario de contacto
+| <kbd>/nossos-atletas</kbd>     | Apresentação dos membros da equipe com foto e especialidade.
+| <kbd>/horario-de-aulas</kbd>     | Exibição detalhada dos horários das aulas e treinos.
+| <kbd>/nossa-academia</kbd>     | Apresentação da academia e dos líderes.
 
 <h2 id="colab">🤝 Colaboradores</h2>
 
@@ -88,7 +86,7 @@ Um agradecimento especial a todas as pessoas que contribuíram para este projeto
 
 Contribuições são bem-vindas! Por favor, faça um fork do repositório e envie um pull request para quaisquer melhorias ou correções de bugs.
 
-1. `git clone https://github.com/Emanuel-Marques/clinica-maravilha.git`
+1. `git clone https://github.com/Emanuel-Marques/bpt-management-system.git`
 2. `git checkout -b feature/NAME`
 3. Siga os padrões de commit
 4. Abra um Pull Request explicando o problema resolvido ou o recurso criado, se houver, anexe uma captura de tela das modificações visuais e aguarde a revisão!
